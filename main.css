@@ -1,0 +1,80 @@
+*{
+    color: #333;
+    background-color: #C0B7FF;
+}
+
+.container{
+    max-width: 95%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.numberInputs{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+}
+
+.number1,
+.number2{
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+.number1,
+.number2,
+.button{
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    min-height: 30px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border-style: inset;
+}
+
+.button-div{
+    text-align: center;
+}
+
+.button{
+    background-color: #333;
+    border: 1px solid white;
+    color: white;
+    min-height: 40px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #515151;
+    transition: 0.3s;
+}
+
+.results {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LCM-area,
+.GCD-area{
+    display: flex;
+}
+
+.LCM-result,
+.GCD-result{
+    margin-left: 5px;
+}

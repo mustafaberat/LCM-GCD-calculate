@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./formalize.css">
+    <link rel="stylesheet" href="./main.css">
+    <script src="main.js"></script>
+    <title>LCM & GCD</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h3>Calculate Least Common Multiple and Greatest Common Divisor</h3>
+    </header>
+    
+    <main>
+        <div class="numberInputs">
+            <input type="number" placeholder="Number 1" id="number1" class="number1">
+            <input type="number" placeholder="Number 2" id="number2" class="number2">
+        </div>
+    <div class="button-div">
+        <button onclick=clickedButton() class="button">CALCULATE</button>
+    </div>
+    <div class="results">
+        <div class="LCM-area">
+            <h4 class="LCM-title">LCM: </h4>
+            <h4 id="LCM-result" class="LCM-result">0</h4>
+        </div>
+        <div class="GCD-area">
+            <h4 class="GCD-title">GCD: </h4>
+            <h4 id="GCD-result" class="GCD-result">0</h4>
+        </div>
+    </div>
+    </main>
+</div>
+</body>
+</html>
